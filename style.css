@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.barranav {
+    background-color: #a5a5a5;
+    color: rgb(187, 0, 0);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+
+}
+
+.logo {
+    width: 150px;
+}
+
+
+.enlacito {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-decoration: none;
+    color: rgb(143, 0, 0);
+    font-weight: 900;
+    font-size: 18px;
+    margin: 0px 10px 0px 10px;
+    padding: 0px 10px 0px 10px;
+    transition: ease-in .5s;
+}
+
+.enlacito:hover {
+    color: #a5a5a5;
+    background-color: rgb(138, 0, 0);
+    padding: 10px 10px;
+
+}
